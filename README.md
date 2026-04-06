@@ -1,3 +1,9 @@
+## Full Report
+
+For a more detailed explanation of the overall methodology and experiments, please refer to the full report:
+
+👉 [View Full PDF](./idea_proposition.pdf)
+
 ## Overview
 LLM-based recommender systems rely primarily on textual information of users and items.  
 While effective, they fail to capture collaborative signals from user-item interactions.
