@@ -2,7 +2,7 @@
 
 For a more detailed explanation of the overall methodology and experiments, please refer to the full report:
 
-👉 [View Full PDF](./Estimating Collaborative Information to eliminate the need for retraining CF in LLMRecs.pdf)
+[View Full PDF](./Estimating_CF_Embedding.pdf)
 
 ## Overview
 LLM-based recommender systems rely primarily on textual information of users and items.  
