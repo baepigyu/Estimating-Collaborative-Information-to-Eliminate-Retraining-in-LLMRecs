@@ -101,9 +101,11 @@ Output:
 
 ## Takeaways
 
-- This research came from an thought that bridging LLM and CF without retraining is critical for real-world deployment
-- Estimating embeddings is more scalable than retraining models
-- However,the presumption of the research that an encoder can estimate collaborative information using Text information and some part of collaborative information was quite wrong.
+- This research started from the idea that bridging LLMs and CF models without retraining is critical for real-world deployment.
+- Estimating embeddings is more scalable than retraining entire models.
+- However, one of the core assumptions of this research turned out to be weak: an encoder may not be able to estimate collaborative information accurately using only textual information and partial interaction data.
 
-
-- And, 학습 과정에서 user item interaction을 고르기 애매했다.
+![System Architecture](./figures/figure7.png)
+- As shown in the figure above, the training loss decreased significantly; however, the validation and test performance remained close to random.
+- This indicates that the model only learns patterns specific to the training data and fails to generalize.
+- In addition, selecting appropriate user-item interactions during training was not straightforward.
